@@ -18,7 +18,6 @@ $(call inherit-product, device/xiaomi/olives/device.mk)
 # Corvus Stuff
 CORVUS_OFFICIAL := true
 USE_GAPPS := true
-CORVUS_MAINTAINER := Anant_Goel
 
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK := true
