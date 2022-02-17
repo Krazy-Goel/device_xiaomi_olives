@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/olives/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := olives
-PRODUCT_NAME := komodo_olives
+PRODUCT_NAME := corvus_olives
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 8 Series
@@ -25,9 +25,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
 # Komodo Stuff
-KOMODO_OFFICIAL := true
-KOMODO_GAPPS_TYPE := nogapps
-KOMODO_VARIANT := RELEASE
+CORVUS_OFFICIAL := true
+USE_GAPPS := true
+CORVUS_VARIANT := RELEASE
 
 # Some build flags
 TARGET_BOOT_ANIMATION_RES := 720
