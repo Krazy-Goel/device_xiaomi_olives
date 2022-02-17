@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_olives.mk
+    $(LOCAL_DIR)/corvus_olives.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_olives-user \
-    komodo_olives-userdebug \
-    komodo_olives-eng
+    corvus_olives-user \
+    corvus_olives-userdebug \
+    corvus_olives-eng
