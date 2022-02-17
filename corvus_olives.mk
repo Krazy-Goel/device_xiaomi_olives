@@ -15,9 +15,10 @@ $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 # Inherit from olives device
 $(call inherit-product, device/xiaomi/olives/device.mk)
 
-# Komodo Stuff
+# Corvus Stuff
 CORVUS_OFFICIAL := true
 USE_GAPPS := true
+CORVUS_MAINTAINER := Anant_Goel
 
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK := true
