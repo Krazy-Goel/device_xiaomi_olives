@@ -16,11 +16,11 @@ $(call inherit-product, vendor/corvus/config/common.mk)
 $(call inherit-product, device/xiaomi/olives/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := olives
-PRODUCT_NAME := corvus_olives
+PRODUCT_DEVICE := olive
+PRODUCT_NAME := corvus_olive
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 8 Series
+PRODUCT_MODEL := Redmi 8
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
