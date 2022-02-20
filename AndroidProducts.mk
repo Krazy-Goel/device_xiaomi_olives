@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_olives.mk
+    $(LOCAL_DIR)/spark_olives.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_olives-user \
-    corvus_olives-userdebug \
-    corvus_olives-eng
+    spark_olives-user \
+    spark_olives-userdebug \
+    spark_olives-eng
