@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_olives.mk
+    $(LOCAL_DIR)/fluid_olives.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_olives-user \
-    corvus_olives-userdebug \
-    corvus_olives-eng
+    fluid_olives-user \
+    fluid_olives-userdebug \
+    fluid_olives-eng
