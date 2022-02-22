@@ -10,14 +10,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Komodo OS stuff
-$(call inherit-product, vendor/spark/config/common.mk)
+$(call inherit-product, vendor/lightos/config/common.mk)
 
 # Inherit from olives device
 $(call inherit-product, device/xiaomi/olives/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := olive
-PRODUCT_NAME := spark_olive
+PRODUCT_NAME := lighthouse_olive
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 8
@@ -25,10 +25,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
 # Komodo Stuff
-SPARK_OFFICIAL := true
+LIGHTHOUSE_OFFICIAL := true
 USE_GAPPS := true
-SPARK_VARIANT := RELEASE
-SPARK_MAINTAINER := Anant_Goel
+LIGHTHOUSE_VARIANT := RELEASE
+LIGHTHOUSE_MAINTAINER := Anant_Goel
 
 # Some build flags
 TARGET_BOOT_ANIMATION_RES := 720
