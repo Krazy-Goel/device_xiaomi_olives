@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Komodo OS stuff
-$(call inherit-product, vendor/spark/config/common.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Inherit from olives device
 $(call inherit-product, device/xiaomi/olives/device.mk)
